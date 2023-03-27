@@ -12,7 +12,7 @@ if(isset($_POST['login']))   // it checks whether the user clicked login button 
      $a = $_POST['unm'];
      $b = $_POST['pas'];
 	
-	$conn = mysqli_connect("localhost","root","","dbnm")
+	$conn = mysqli_connect("localhost","root","","dbnm");
 	$sql= "select * from `tbnm` where `colunm`='$a' and `colpas`='$b'";
 	$res = mysqli_query($conn,$sql);
 	$count=mysqli_num_rows($res);
