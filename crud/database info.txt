@@ -1,0 +1,5 @@
+database = kai
+table : additem
+column 1. id 2.cnam
+
+doneeeee!!
